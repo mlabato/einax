@@ -35,10 +35,10 @@ const ServicesContainer = () => {
   })
 
   return (
-    <section id="services" className="px-[5rem] py-[3rem]">
-      <div className="font-bold text-[3.5rem] pb-[3rem] text-center  ">our services</div>
+    <section id="services" className="px-[5rem] pt-[4rem]">
+      <div className="font-bold text-[2rem] notebook:text-[3.5rem] pb-[3rem] text-center  ">our services</div>
 
-      <article  className="flex flex-row items-center justify-center  "> 
+      <article  className="flex flex-col notebook:flex-row items-center justify-center  "> 
         {servicesMap}
       </article>
     </section>
