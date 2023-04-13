@@ -30,8 +30,8 @@ const InfoContainer = () => {
   const dataMap = dataArray.map((data, i) => {
     return (
       <div className="py-[.5rem] border-black border-b-2 mb-[2rem]">
-        <p className="font-bold text-[1rem] notebook:text-[1.2rem]">{data.title}</p>
-        <p className="text-[.7rem] notebook:text-[.9rem] ">{data.description}</p>
+        <p className="font-bold text-[1rem] notebook:text-[1.2rem] big:text-[1.5rem]">{data.title}</p>
+        <p className="text-[.7rem] notebook:text-[.9rem]  big:text-[1.1rem] ">{data.description}</p>
       </div>
     );
   });
@@ -39,7 +39,7 @@ const InfoContainer = () => {
   return (
     <article
       id="why-solar"
-      className="px-[3rem] notebook:px-[6rem] pt-[4rem] notebook:pt-[6rem] flex flex-col notebook:flex-row justify-between items-start  "
+      className="px-[3rem] notebook:px-[6rem] big:px-[10rem] pt-[4rem] notebook:pt-[6rem] flex flex-col notebook:flex-row justify-between items-start  "
     >
       <div className="font-bold  text-[2rem] notebook:text-[3.5rem] notebook:w-1/2 ">why go solar?</div>
       <div className="notebook:w-3/4 text-[1.1rem] notebook:ml-[4rem] ">

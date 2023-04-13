@@ -8,7 +8,7 @@ const ServiceCard = (props) => {
         <p className="group-hover:hidden  font-bold ml-[2rem]  notebook:ml-[1rem] py-[1rem] text-[1.8rem] text-white cursor-pointer">
           {props.title}
         </p>
-        <p className="hidden group-hover:block  text-white font-semibold text-[1rem] notebook:text-[.8rem] p-[2rem]">
+        <p className="hidden group-hover:block  text-white font-semibold text-[1rem] notebook:text-[.8rem] big:text-[1rem] p-[2rem]">
           {props.description}
         </p>
       </div>

@@ -65,7 +65,7 @@ const Navbar = () => {
           visible
             ? "h-[3.5rem] notebook:h-[5rem]"
             : "h-[2.5rem] notebook:h-[3rem]"
-        } px-[4rem] notebook:px-[6rem] bg-white w-full ease-out duration-300 flex flex-row items-center justify-between z-10`}
+        } px-[4rem] notebook:px-[6rem] big:px-[10rem] bg-white w-full ease-out duration-300 flex flex-row items-center justify-between z-10`}
       >
         <img src="/logo.svg" alt="" className="w-[4rem] notebook:w-[8rem]" />
 
