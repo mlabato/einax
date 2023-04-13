@@ -8,7 +8,7 @@ const ContactContainer = () => {
       <div className="w-1/2 text-[1.1rem] notebook:ml-[8rem] ">
         <div className="py-[.5rem] border-black border-b-2 mb-[1rem]">
  
-          <div className="text-[1.5rem] mb-[2rem] desktop:text-[1.7rem] items-start">
+          <div className="text-[1.5rem] mb-[2rem]  items-start">
             <a href="google.com" className="flex flex-row items-center hover:text-[#00F000]">
               <FaWhatsapp /> <p className="ml-[1rem]">contact@einax.com</p>
             </a>

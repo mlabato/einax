@@ -16,6 +16,13 @@ module.exports = {
         'custom': "url('/public/img/custom.jpg')",
 
       },
+      screens: {
+        'mobile': '400px',
+        'notebook': '1024px',
+        'desktop': '1240px',
+        'bigdesktop': '1366px',
+        'full': '1920px',
+      },
     },
   },
   plugins: [],
