@@ -7,7 +7,10 @@ module.exports = {
     extend: {
       fontFamily: {
         lato: ["'Lato'"],
-      }
+      },
+      backgroundImage: {
+        'intro': "url('/public/img/intro-img.jpg')",
+      },
     },
   },
   plugins: [],
