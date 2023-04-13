@@ -10,6 +10,11 @@ module.exports = {
       },
       backgroundImage: {
         'intro': "url('/public/img/intro-img.jpg')",
+        'residential': "url('/public/img/residential.jpg')",
+        'commercial': "url('/public/img/commercial.jpg')",
+        'highend': "url('/public/img/high-end.jpg')",
+        'custom': "url('/public/img/custom.jpg')",
+
       },
     },
   },

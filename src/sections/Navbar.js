@@ -50,7 +50,7 @@ const Navbar = () => {
       <li>
         <a
           href={"#" + title.link}
-          className="px-[1rem] hover:font-bold hover:text-[#00F000]"
+          className="px-[1rem] text-[1.25rem] font-bold hover:text-[#00F000]"
         >
           {title.title}
         </a>
@@ -63,7 +63,7 @@ const Navbar = () => {
       <article
         className={`fixed  ${
           visible ? "h-[6rem]" : "h-[4rem]"
-        } px-[10rem] bg-white w-full ease-out duration-300 flex flex-row items-center justify-between `}
+        } px-[10rem] bg-white w-full ease-out duration-300 flex flex-row items-center justify-between z-10`}
       >
         <img src="/logo.svg" alt="" className="w-[10rem]" />
 

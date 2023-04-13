@@ -1,10 +1,10 @@
 const IntroContainer = () => {
   return (
-    <section className="py-[6rem]">
+    <section className="pt-[6rem]">
       <article className="bg-intro  h-[28rem] opacity-80">
         <div className="h-[30rem] w-1/2 bg-white opacity-90">
-          <div className="p-[8rem] ">
-            <p className="text-[3rem] font-bold"> power your home </p>
+          <div className="p-[5rem] ">
+            <p className="text-[4rem] font-bold"> power your home </p>
             <p className="text-[1.5rem] ">
               {" "}
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
