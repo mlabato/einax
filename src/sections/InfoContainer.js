@@ -38,9 +38,9 @@ const InfoContainer = () => {
   return (
     <article
       id="why-solar"
-      className="px-[3rem] notebook:px-[6rem] big:px-[10rem] pt-[4rem] notebook:pt-[6rem] flex flex-col notebook:flex-row justify-between items-start  "
+      className="px-[3rem] notebook:px-[6rem] big:px-[10rem] full:px-[12rem] pt-[4rem] notebook:pt-[6rem] flex flex-col notebook:flex-row justify-between items-start  "
     >
-      <div className="font-bold pb-[1.5rem] notebook:pb-0   text-[2rem] notebook:text-[3.5rem] notebook:w-1/2 ">why go solar?</div>
+      <div className="font-bold pb-[1.5rem] notebook:pb-0   text-[2rem] notebook:text-[3.5rem] full:text-[5rem] notebook:w-1/2 ">why go solar?</div>
       <div className="notebook:w-3/4 text-[1.1rem] notebook:ml-[4rem] flex flex-col ">
         {dataMap}
       </div>

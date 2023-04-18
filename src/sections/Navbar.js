@@ -50,7 +50,7 @@ const Navbar = () => {
       <li>
         <a
           href={"#" + title.link}
-          className="px-[1rem] text-[1.25rem] font-bold hover:text-[#00F000]"
+          className="px-[1rem] text-[1.25rem] full:text-[2rem] font-bold hover:text-[#00F000] duration-300"
         >
           {title.title}
         </a>
@@ -63,11 +63,11 @@ const Navbar = () => {
       <article
         className={`fixed  ${
           visible
-            ? "h-[3.5rem] notebook:h-[5rem]"
-            : "h-[2.5rem] notebook:h-[3rem]"
+            ? "h-[3.5rem] notebook:h-[5rem] full:h-[8rem]"
+            : "h-[2.5rem] notebook:h-[3rem] full:h-[6rem]"
         } px-[4rem] notebook:px-[6rem] big:px-[10rem] bg-white w-full ease-out duration-300 flex flex-row items-center justify-between z-10`}
       >
-        <img src="/logo.svg" alt="" className="w-[4rem] notebook:w-[8rem]" />
+        <img src="/logo.svg" alt="" className="w-[4rem] notebook:w-[8rem] full:w-[12rem]" />
 
         <ul className="hidden notebook:flex flex-row px-[2rem]">
           {mappedTitles}
