@@ -9,11 +9,11 @@ const ContactContainer = () => {
         <div className="py-[.5rem] border-black border-b-2 mb-[1rem]">
  
           <div className=" text-[.9rem] notebook:text-[1.5rem] full:text-[2rem] mb-[2rem]  items-start">
-            <a href="google.com" className="flex flex-row mb-[1rem] items-center hover:text-[#00F000]">
+            <a href="google.com" className="flex flex-row mb-[1rem] items-center hover:text-[#00F000] duration-300">
               <FiMail /> <p className="ml-[1rem]">contact@einax.com</p>
             </a>
 
-            <a href="emailto:google.com" className="flex flex-row items-center hover:text-[#00F000]">
+            <a href="emailto:google.com" className="flex flex-row items-center hover:text-[#00F000] duration-300">
               <FaWhatsapp /> <p className="ml-[1rem]"> +1(323)567 8944</p>
             </a>
           </div>
