@@ -44,7 +44,7 @@ const DropdownInfo = (props) => {
         >
           <div className="py-1" role="none">
             <p
-              className="text-gray-700 block px-4 py-2 text-[.8rem] full:text-[1.2rem]"
+              className="text-gray-700 block px-4 py-2 text-[.8rem] desktop:text-[1rem] full:text-[1.2rem] "
               role="menuitem"
               tabindex="-1"
               id="menu-item-0"
