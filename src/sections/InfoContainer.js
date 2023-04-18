@@ -15,7 +15,7 @@ const InfoContainer = () => {
     {
       title: "property value increase",
       description:
-        "Property value Homes with solar power are sold faster and for higher prices, as they save money on bills and reduce environmentalpollution",
+        "Property value Homes with solar power are sold faster and for higher prices, as they save money on bills and reduce environmental pollution",
     },
     {
       title: "save more on your utility bills",
