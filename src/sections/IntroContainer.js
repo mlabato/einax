@@ -11,7 +11,7 @@ const IntroContainer = () => {
             </p>
 
             <div className=" my-[.5rem] notebook:my-[1rem] big:my-[1.5rem] hover:shadow-lg duration-300 text-[.8rem] notebook:text-[1.25rem] full:text-[2rem] mx-auto p-[.25rem] notebook:p-[.75rem] bg-[#00F000] rounded-lg w-1/2 notebook:w-[40%] text-center font-bold ">
-              <a href="mailto:xxx@hotmail.com">contact us</a>
+              <a href="mailto:info@einax.us">contact us</a>
             </div>
           </div>
         </div>

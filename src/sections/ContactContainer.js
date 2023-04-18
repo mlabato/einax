@@ -1,4 +1,4 @@
-import { FaWhatsapp } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
 
 const ContactContainer = () => {
@@ -10,11 +10,11 @@ const ContactContainer = () => {
  
           <div className=" text-[.9rem] notebook:text-[1.5rem] full:text-[2rem] mb-[2rem]  items-start">
             <a href="google.com" className="flex flex-row mb-[1rem] items-center hover:text-[#00F000] duration-300">
-              <FiMail /> <p className="ml-[1rem]">contact@einax.com</p>
+              <FiMail /> <a href="mailto:info@einax.us" className="ml-[1rem]">info@einax.us</a>
             </a>
 
             <a href="emailto:google.com" className="flex flex-row items-center hover:text-[#00F000] duration-300">
-              <FaWhatsapp /> <p className="ml-[1rem]"> +1(323)567 8944</p>
+              <FaPhone/> <p className="ml-[1rem]"> +1(323)567 8944</p>
             </a>
           </div>
         </div>

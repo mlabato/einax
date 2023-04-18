@@ -54,7 +54,7 @@ const InfoContainer = () => {
           send us your electric bill and we'll get you a free budget{" "}
         </p>
         <div className=" my-[.5rem] notebook:my-[1rem] big:my-[1.5rem] hover:shadow-lg duration-300 text-[.8rem] notebook:text-[1.25rem] full:text-[2rem] mx-auto cursor-pointer p-[.25rem] notebook:p-[.75rem] bg-[#00F000] rounded-lg w-1/2 notebook:w-[25%] desktop:w-[20%] full:w-[20%] text-center font-bold ">
-          <a href="mailto:xxx@hotmail.com?subject=Subject%20Line%20Text%20">
+          <a href="mailto:info@einax.us?subject=Subject%20Line%20Text%20">
             contact us
           </a>
         </div>
