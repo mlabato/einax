@@ -10,4 +10,4 @@ const ContactIcons = () => {
     )
 }
 
-export default ContactIcons;
+export default ContactIcons; 

@@ -14,7 +14,7 @@ const ContactContainer = () => {
             </a>
 
             <a href="emailto:google.com" className="flex flex-row items-center hover:text-[#00F000] duration-300">
-              <FaPhone/> <p className="ml-[1rem]"> +1(323)567 8944</p>
+              <FaPhone/> <p className="ml-[1rem]"> +1(305)4973070</p>
             </a>
           </div>
         </div>
