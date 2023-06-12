@@ -5,9 +5,9 @@ const Footer = () => {
     
         Einax LLC
         <br />
-        1504 Bay Road
+        10450 NW 33rd Street
         <br />
-        Miami Beach Fl, 33139
+        Doral, Florida 33172
       </div>
       <div className="text-[.6rem] notebook:text-[1rem] full:text-[1.3rem] text-white font-bold ">
       Einax © 2023. All Rights Reserved.

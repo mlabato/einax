@@ -47,7 +47,7 @@ const InfoContainer = () => {
         </div>
       </article>
 
-      <article className="bg-black mt-[4rem] notebook:mt-[6rem]  p-[1.2rem] desktop:p-[2.5rem] full:p-[3rem]">
+      <article className="bg-black mt-[4rem] notebook:mt-[6rem]  p-[1.2rem] notebook:p-[3rem] desktop:p-[4.5rem] full:p-[6rem]">
         <p className=" text-[1rem] notebook:text-[1.4rem] desktop:text-[1.6rem] full:text-[2.2rem] text-center font-semibold pt-[2rem] mx-[.75rem] text-white  ">
           send us your electric bill and we'll get you a free budget{" "}
         </p>
