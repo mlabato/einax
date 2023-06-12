@@ -37,7 +37,7 @@ const InfoContainer = () => {
   return (
     <section id="why-solar" className=" mt-[4rem] notebook:mt-[6rem]  ">
       <article className="px-[3rem] notebook:px-[6rem] big:px-[10rem] full:px-[12rem] flex flex-col notebook:flex-row justify-between items-start ">
-        <div className="font-bold pb-[1.5rem] notebook:pb-0   text-[2rem] notebook:text-[3.5rem] full:text-[5rem] notebook:w-1/2 ">
+        <div className="font-bold pb-[1.5rem] notebook:pb-0   text-[2rem] notebook:text-[3rem] full:text-[5rem] notebook:w-2/3 ">
           why go solar?
         </div>
         <div className="notebook:w-3/4 text-[1.1rem] notebook:ml-[4rem] flex flex-col ">
