@@ -5,6 +5,7 @@ import Navbar from "./sections/Navbar";
 import ServicesContainer from "./sections/ServicesContainer";
 import Footer from "./sections/Footer";
 import ContactIcons from "./ux/ContactIcons";
+import WorkWithUsContainer from "./sections/WorkWithUsContainer";
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <IntroContainer />
       <InfoContainer />
       <ServicesContainer />
+      <WorkWithUsContainer />
       <ContactContainer />
       <Footer/>
       <ContactIcons />

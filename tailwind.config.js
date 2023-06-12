@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        lato: ["'Lato'"],
+        nexa: ["'nexa'"],
       },
       backgroundImage: {
         'intro': "url('/public/img/intro-img.jpg')",

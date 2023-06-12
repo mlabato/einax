@@ -33,24 +33,22 @@ const InfoContainer = () => {
     return <DropdownInfo title={data.title} description={data.description} />;
   });
 
-  return (
-    <section
-      id="why-solar"
-      className=" pt-[4rem] notebook:pt-[6rem]  "
-    >
 
+  return (
+    <section id="why-solar" className=" mt-[4rem] notebook:mt-[6rem]  ">
       <article className="px-[3rem] notebook:px-[6rem] big:px-[10rem] full:px-[12rem] flex flex-col notebook:flex-row justify-between items-start ">
-      <div className="font-bold pb-[1.5rem] notebook:pb-0   text-[2rem] notebook:text-[3.5rem] full:text-[5rem] notebook:w-1/2 ">
-        why go solar?
-      </div>
-      <div className="notebook:w-3/4 text-[1.1rem] notebook:ml-[4rem] flex flex-col ">
-        {dataMap}
-      </div>
+        <div className="font-bold pb-[1.5rem] notebook:pb-0   text-[2rem] notebook:text-[3.5rem] full:text-[5rem] notebook:w-1/2 ">
+          why go solar?
+        </div>
+        <div className="notebook:w-3/4 text-[1.1rem] notebook:ml-[4rem] flex flex-col ">
+          
+
+        {dataMap} 
+        </div>
       </article>
 
-
-      <article className="bg-black mt-[1rem] desktop:mt-[2rem] full:mt-[3rem] p-[1.2rem] desktop:p-[2.5rem] full:p-[3rem]">
-        <p className=" text-[1rem] notebook:text-[1.4rem] desktop:text-[1.6rem] full:text-[2.2rem] text-center font-bold pt-[2rem] mx-[.75rem] text-white  ">
+      <article className="bg-black mt-[4rem] notebook:mt-[6rem]  p-[1.2rem] desktop:p-[2.5rem] full:p-[3rem]">
+        <p className=" text-[1rem] notebook:text-[1.4rem] desktop:text-[1.6rem] full:text-[2.2rem] text-center font-semibold pt-[2rem] mx-[.75rem] text-white  ">
           send us your electric bill and we'll get you a free budget{" "}
         </p>
         <div className=" my-[.5rem] notebook:my-[1rem] big:my-[1.5rem] hover:shadow-lg duration-300 text-[.8rem] notebook:text-[1.25rem] full:text-[2rem] mx-auto cursor-pointer p-[.25rem] notebook:p-[.75rem] bg-[#00F000] rounded-lg w-1/2 notebook:w-[25%] desktop:w-[20%] full:w-[20%] text-center font-bold ">

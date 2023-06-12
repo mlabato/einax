@@ -12,7 +12,7 @@ const DropdownInfo = (props) => {
         <div
           type="button"
           onClick={clickHandler}
-          className=" w-full flex flex-row justify-between desktop:text-[1.2rem] full:text-[1.8rem] gap-x-1.5 bg-white px-[.75rem] py-[.5rem]  font-semibold text-gray-900  border-b-2 border-black   cursor-pointer"
+          className=" w-full flex flex-row justify-between text-[0.9rem] desktop:text-[1.2rem] full:text-[1.8rem] gap-x-[2rem] bg-white px-[.75rem] py-[.5rem]  font-semibold text-gray-900  border-b-2 border-black   cursor-pointer"
           id="menu-button"
           aria-expanded="true"
           aria-haspopup="true"
